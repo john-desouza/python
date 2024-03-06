@@ -7,7 +7,7 @@ tipPercentage = float(input("What percentage tip would you like to give? "))
 maximumTip = 100
 tipAmmount = (tipPercentage / maximumTip) * 100
 
-#Calculate the final ammount considering all previous values provided 
+#Calculate the final ammount considering all previous values provided
 finalBill = (tipAmmount + initialBill) / numberOfPeople
 
 print(f"Each person should pay {finalBill}")
